@@ -16,6 +16,7 @@ public class textReaderMain {
             myTextReader.readInput(input); //Kallar på readInput-metoden ifrån textReader-konstruktorn.
             System.out.println("You wrote: "+" '"+input+"' "+"＼(-_- )"); //Hämtar och skriver ut vad användaren skrivit in utan att printa något resultat.
         }
-        myTextReader.readResults(); //Kallar på readResults-metoden ifrån textReader-konstruktorn
+        String result = myTextReader.readResults(); //Kallar på readResults-metoden ifrån textReader-konstruktorn
+        System.out.println(result);
     }
 }
